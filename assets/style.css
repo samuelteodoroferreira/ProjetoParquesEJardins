@@ -14,16 +14,6 @@ body html {
     overflow: hidden;
 }
 
-iframe {
-    position:sticky;
-    align-content: center;
-    top: auto;
-    left: auto;
-    width: auto;
-    height: auto;
-    border: none;
-}
-
 .imagem{
     padding: 10%;
     width: 70%;

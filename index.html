@@ -4,34 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/style.css">
-    <script src="/assets/scripts.js"></script>
-
-    
+    <script src="/assets/scripts.js"></script>    
 </head>
 
 <body>
     <div class="container">
         <!-- Barra de menu -->
         <div class="menu-bar">
-            <a class="menu-item" href="#Cedro" onclick="showFrame('cedro-frame')">Cedro</a>
-            <a class="menu-item" href="#iperosa" onclick="showFrame('iperosa-frame')">Ipê-Rosa</a>
-            <a class="menu-item" href="#oiti" onclick="showFrame('oiti-frame')">Oiti</a>
-            <a class="menu-item" href="#paineira" onclick="showFrame('paineira-frame')">Paineira</a>
-            <a class="menu-item" href="#paubrasil" onclick="showFrame('paubrasil-frame')">Pau-Brasil</a>
-            <a class="menu-item" href="#pracaamaral" onclick="showFrame('pracaamaral-frame')">Praça Amaral Peixoto</a>
-            <a class="menu-item" href="#pracaamaral1941" onclick="showFrame('pracaamaral1941-frame')">Praça Amaral Peixoto em 1941</a>
-            <a class="menu-item" href="#sibiripiruna" onclick="showFrame('sibiripiruna-frame')">Sibiripiruna</a>
+            <a class="menu-item" onclick="showFrame('cedro-frame')">Cedro</a>
+            <a class="menu-item" onclick="showFrame('iperosa-frame')">Ipê-Rosa</a>
+            <a class="menu-item" onclick="showFrame('oiti-frame')">Oiti</a>
+            <a class="menu-item" onclick="showFrame('paineira-frame')">Paineira</a>
+            <a class="menu-item" onclick="showFrame('paubrasil-frame')">Pau-Brasil</a>
+            <a class="menu-item" onclick="showFrame('pracaamaral-frame')">Praça Amaral Peixoto</a>
+            <a class="menu-item" onclick="showFrame('pracaamaral1941-frame')">Praça Amaral Peixoto em 1941</a>
+            <a class="menu-item" onclick="showFrame('sibiripiruna-frame')">Sibiripiruna</a>
         </div>
     </div>
 
-    <iframe id="cedro-frame" src="/cedro.html" frameborder="0" scrolling="no"></iframe>
-    <iframe id="iperosa-frame" src="/ipe-rosa.html" frameborder="0" scrolling="no"></iframe>
-    <iframe id="oiti-frame" src="/oiti.html" frameborder="0" scrolling="no"></iframe>
-    <iframe id="paineira-frame" src="/paineira.html" frameborder="0" scrolling="no"></iframe>
-    <iframe id="paubrasil-frame" src="/pau-brasil.html" frameborder="0" scrolling="no"></iframe>
-    <iframe id="pracaamaral-frame" src="/pracaAmaral.html" frameborder="0" scrolling="no"></iframe>
-    <iframe id="pracaamaral1941-frame" src="/amaralPeixoto1941.html" frameborder="0" scrolling="no"></iframe>
-    <iframe id="sibiripiruna-frame" src="/sibiripiruna.html" frameborder="0" scrolling="no"></iframe>
-
+    <div class="iframe-container">
+        <iframe id="cedro-frame" src="/cedro.html" frameborder="0" scrolling="no"></iframe>
+        <iframe id="iperosa-frame" src="/ipe-rosa.html" frameborder="0" scrolling="no"></iframe>
+        <iframe id="oiti-frame" src="/oiti.html" frameborder="0" scrolling="no"></iframe>
+        <iframe id="paineira-frame" src="/paineira.html" frameborder="0" scrolling="no"></iframe>
+        <iframe id="paubrasil-frame" src="/pau-brasil.html" frameborder="0" scrolling="no"></iframe>
+        <iframe id="pracaamaral-frame" src="/pracaAmaral.html" frameborder="0" scrolling="no"></iframe>
+        <iframe id="pracaamaral1941-frame" src="/amaralPeixoto1941.html" frameborder="0" scrolling="no"></iframe>
+        <iframe id="sibiripiruna-frame" src="/sibiripiruna.html" frameborder="0" scrolling="no"></iframe>
+    </div>
 </body>
 </html>

@@ -6,11 +6,11 @@ function showFrame(frameId) {
     });
 
     // Exibe o iframe especificado
-            const frameToShow = document.getElementById(frameId);
-            if (frameToShow) {
-                frameToShow.style.display = 'block';
-            }
-        }
+    const frameToShow = document.getElementById(frameId);
+    if (frameToShow) {
+        frameToShow.style.display = 'block';
+    }
+}
 
         //Definindo o tamanho do Iframe Cedro
         window.addEventListener('DOMContentLoaded', (event) => {
