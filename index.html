@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/ProjetoParquesEJardins/assets/style.css">
+    <link rel="stylesheet" href="/assets/style.css">
+    <script src="/assets/scripts.js"></script>
+
+    
 </head>
 
 <body>
@@ -19,31 +22,16 @@
             <a class="menu-item" href="#pracaamaral1941" onclick="showFrame('pracaamaral1941-frame')">Praça Amaral Peixoto em 1941</a>
             <a class="menu-item" href="#sibiripiruna" onclick="showFrame('sibiripiruna-frame')">Sibiripiruna</a>
         </div>
-      
-        <iframe id="cedro-frame" src="cedro.html" frameborder="0" scrolling="no"></iframe>
-        <iframe id="iperosa-frame" src="ipe-rosa.html" frameborder="0" scrolling="no"></iframe>
-        <iframe id="oiti-frame" src="oiti.html" frameborder="0" scrolling="no"></iframe>
-        <iframe id="paineira-frame" src="paineira.html" frameborder="0" scrolling="no"></iframe>
-        <iframe id="paubrasil-frame" src="pau-brasil.html" frameborder="0" scrolling="no"></iframe>
-        <iframe id="pracaamaral-frame" src="pracaAmaral.html" frameborder="0" scrolling="no"></iframe>
-        <iframe id="pracaamaral1941-frame" src="amaralPeixoto1941.html" frameborder="0" scrolling="no"></iframe>
-        <iframe id="sibiripiruna-frame" src="sibiripiruna.html" frameborder="0" scrolling="no"></iframe>
-
-        <script>
-            function showFrame(frameId) {
-                // Oculta todos os iframes
-                const iframes = document.querySelectorAll('iframe');
-                iframes.forEach(iframe => {
-                    iframe.style.display = 'none';
-                });
-
-                // Exibe o iframe especificado
-                const frameToShow = document.getElementById(frameId);
-                if (frameToShow) {
-                    frameToShow.style.display = 'block';
-                }
-            }
-        </script>
     </div>
+
+    <iframe id="cedro-frame" src="/cedro.html" frameborder="0" scrolling="no"></iframe>
+    <iframe id="iperosa-frame" src="/ipe-rosa.html" frameborder="0" scrolling="no"></iframe>
+    <iframe id="oiti-frame" src="/oiti.html" frameborder="0" scrolling="no"></iframe>
+    <iframe id="paineira-frame" src="/paineira.html" frameborder="0" scrolling="no"></iframe>
+    <iframe id="paubrasil-frame" src="/pau-brasil.html" frameborder="0" scrolling="no"></iframe>
+    <iframe id="pracaamaral-frame" src="/pracaAmaral.html" frameborder="0" scrolling="no"></iframe>
+    <iframe id="pracaamaral1941-frame" src="/amaralPeixoto1941.html" frameborder="0" scrolling="no"></iframe>
+    <iframe id="sibiripiruna-frame" src="/sibiripiruna.html" frameborder="0" scrolling="no"></iframe>
+
 </body>
 </html>
