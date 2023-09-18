@@ -14,13 +14,13 @@ body html {
     overflow: hidden;
 }
 
-
 iframe {
-    position:relative;
-    top: 0;
-    left: 0;
-    width: 90%;
-    height: 90%;
+    position:sticky;
+    align-content: center;
+    top: auto;
+    left: auto;
+    width: auto;
+    height: auto;
     border: none;
 }
 
